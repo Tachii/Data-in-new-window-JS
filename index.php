@@ -53,6 +53,7 @@
 			    var text = getCookie();
 			    if(text){
 			    	document.forms['receiver'].elements['message'].value = text;
+			    	setTimeout(updateMessage, 1000);
 			    }
 			    
 			}
