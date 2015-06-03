@@ -46,6 +46,8 @@
 			        while (c.charAt(0)==' ') c = c.substring(1,c.length);
 			        if (c.indexOf(cname) == 0) {
 			            return c.substring(cname.length, c.length);
+			        } else {
+			        	 return "";
 			        }
 			    }
 			}
