@@ -28,7 +28,6 @@ function getCookie() {
 function updateMessage() {
     var text = getCookie();
     document.forms['receiver'].elements['message'].value = text;
-    //setTimeout(updateMessage, 100);
 }
 updateMessage();
 </script>
