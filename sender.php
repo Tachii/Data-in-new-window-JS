@@ -7,7 +7,7 @@
    appear automatically in the receiver.</p>
 
 
-<div ><b id="data"  onclick="updateMessage()">Click this for test</b></div>
+<div ><b id="data"  onclick="updateMessage()">Click this for test 2</b></div>
 
 <script type="text/javascript">
 

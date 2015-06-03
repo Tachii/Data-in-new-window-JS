@@ -29,6 +29,7 @@ function updateMessage() {
     var text = getCookie();
     if(text){
     	document.forms['receiver'].elements['message'].value = text;
+    	document.forms['receiver'].elements['message'].innerHTML = text;
     }
     
 }
