@@ -27,7 +27,10 @@ function getCookie() {
 }
 function updateMessage() {
     var text = getCookie();
-    document.forms['receiver'].elements['message'].value = text;
+    if(text){
+    	document.forms['receiver'].elements['message'].value = text;
+    }
+    
 }
 updateMessage();
 </script>
