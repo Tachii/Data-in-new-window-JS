@@ -6,7 +6,7 @@
 <p>Watch the text appear in the text box below as you Click on text in separate window</p>
 
 <form name="receiver">
-<input type="text" name="message" size="30" value="" >
+<input type="text" id="message" name="message" size="30" value="" >
 </form>
 
 <input type="submit" onclick="window.open('sender.php', 'newwindow', 'width=300, height=250'); return false;">
@@ -29,7 +29,6 @@ function updateMessage() {
     var text = getCookie();
     if(text){
     	document.forms['receiver'].elements['message'].value = text;
-    	document.forms['receiver'].elements['message'].innerHTML = text;
     }
     
 }
