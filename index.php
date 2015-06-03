@@ -27,7 +27,7 @@
 		<p>Watch the text appear in the text box below as you Click on text in separate window</p>
 		
 		<form name="receiver" method="post" action="test.php">
-		<input type="text" id="message" name="message" size="30" value="" >
+		<input type="text" id="message" name="message" size="30" value="" onchange="clearTimeout(timeout)">
 		<input type="submit" />
 		</form>
 		<br />
@@ -53,7 +53,7 @@
 			    var text = getCookie();
 			    if(text){
 			    	document.forms['receiver'].elements['message'].value = text;
-			    	setTimeout(updateMessage, 1000);
+			    	var timeout = setTimeout(updateMessage, 1000);
 			    }
 			    
 			}
