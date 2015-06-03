@@ -30,8 +30,9 @@
 		<input type="text" id="message" name="message" size="30" value="" >
 		<input type="submit" />
 		</form>
-		
-		<input type="submit" onclick="window.open('sender.php', 'newwindow', 'width=300, height=250'); return false;">
+		<br />
+		Select Data From list below:<br />
+		<input type="submit" onclick="window.open('sender.php', 'newwindow', 'width=300, height=250'); return false; ">
 	</body>
 	
 		<script type="text/javascript">
