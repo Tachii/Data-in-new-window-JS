@@ -9,7 +9,7 @@
 <input type="text" name="message" size="30" value="" >
 </form>
 
-<input type="submit" onclick="window.open('sender.html', 'newwindow', 'width=300, height=250'); return false;">
+<input type="submit" onclick="window.open('sender.php', 'newwindow', 'width=300, height=250'); return false;">
 
 <script type="text/javascript">
 function getCookie() {
