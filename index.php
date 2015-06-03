@@ -55,8 +55,6 @@
 			    	document.forms['receiver'].elements['message'].value = text;
 			    	var timeout = setTimeout(updateMessage, 1000);
 			    }
-			    
 			}
-			updateMessage();
 		</script>
 </html>
