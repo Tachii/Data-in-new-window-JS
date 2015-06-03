@@ -3,11 +3,10 @@
 <body>
 <h1>Sender</h1>
 
-<p>Type into the text box below and watch the text 
-   appear automatically in the receiver.</p>
+<p>Klick on the text below to transmit it to previous page:</p>
 
 
-<div ><b id="data"  onclick="updateMessage()">123</b></div>
+<div ><b id="data"  onclick="updateMessage()">Click Me</b></div>
 
 <script type="text/javascript">
 
