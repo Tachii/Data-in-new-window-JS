@@ -32,7 +32,7 @@
 		</form>
 		<br />
 		Select Data From list below:<br />
-		<input type="submit" onclick="window.open('sender.php', 'newwindow', 'width=300, height=250'); return false; ">
+		<input type="submit" onclick="window.open('sender.php', 'newwindow', 'width=300, height=250'); updateMessage(); ">
 	</body>
 	
 		<script type="text/javascript">
